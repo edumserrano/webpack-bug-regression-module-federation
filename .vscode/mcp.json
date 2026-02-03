@@ -1,0 +1,12 @@
+{
+  // For more information, visit: https://angular.dev/ai/mcp
+  "servers": {
+    "chrome-devtools": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "chrome-devtools-mcp@latest",
+      ]
+    },
+  }
+}

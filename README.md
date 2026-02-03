@@ -15,6 +15,8 @@
 
 This repo contains a reproduction case for a webpack regression affecting applications using the [ModuleFederationPlugin](https://webpack.js.org/plugins/module-federation-plugin/). **The bug analysis was performed by AI using GitHub Copilot in VSCode with the `Claude Opus 4.5` model. For more information see the [AI Debugging Session](/claude-opus-4.5-analysis/prompts.md) doc.**
 
+Webpack [[Bug Report] ModuleFederationPlugin with library: { type: 'module' } produces broken shared chunks in v5.104.0+ #20405](https://github.com/webpack/webpack/issues/20405)
+
 ## Bug Summary
 
 **Affected Versions:** webpack 5.104.0, 5.104.1

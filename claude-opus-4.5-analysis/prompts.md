@@ -43,8 +43,6 @@ The following setup was in place before executing the prompt below with the `Cla
 
 The following prompt was used to ask the AI to investigate and determine the root cause of the webpack regression.
 
----
-
 ```text
 I'm trying to find more information about a bug that happens when I run the demo-angular-21-app Angular app in production mode. This app uses a custom angular builder that allows the webpack configuration to be extended.
 

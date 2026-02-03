@@ -23,14 +23,23 @@ This repo contains a reproduction case for a webpack regression affecting applic
 
 ### Environment
 
+Result from `npx webpack info`:
+
 ```text
-System:
-  OS: Windows 11 10.0.26200
-  CPU: (16) x64 AMD Ryzen 7 7800X3D 8-Core Processor
-  Memory: 63.16 GB
-Binaries:
-  Node: 24.13.0
-  npm: 11.8.0
+  System:
+    OS: Windows 11 10.0.26200
+    CPU: (16) x64 AMD Ryzen 7 7800X3D 8-Core Processor
+    Memory: 29.39 GB / 63.16 GB
+  Binaries:
+    Node: 24.13.0 - C:\Program Files\nodejs\node.EXE
+    npm: 11.8.0 - C:\Program Files\nodejs\npm.CMD
+  Browsers:
+    Chrome: 144.0.7559.110
+    Edge: Chromium (140.0.3485.54)
+    Firefox: 147.0.1 - C:\Program Files\Mozilla Firefox\firefox.exe
+    Internet Explorer: 11.0.26100.7309
+  Packages:
+    webpack-cli: ^6.0.1 => 6.0.1
 ```
 
 ### The Problem

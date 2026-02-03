@@ -1,0 +1,1 @@
+# webpack-bug-regression-module-federation
